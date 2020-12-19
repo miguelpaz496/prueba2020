@@ -135,16 +135,12 @@ export default function MyForm() {
                     </Grid>
                     <br/>
                     <Grid item xs={12}>
-                      <Grid item xs={6}>
+                      <Grid item xs={12}>
                           <Button variant="contained" onClick={() => getLyrics()} color="primary" fullWidth={true}>
                               Find Lyrics
                           </Button>
                       </Grid>
-                      <Grid item xs={6}>
-                          <Button variant="contained" onClick={() => getTranslate()} color="primary" fullWidth={true}>
-                              Translate
-                          </Button>
-                      </Grid>
+
                     </Grid>
                     <br/>
                     <br/>

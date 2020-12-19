@@ -4,6 +4,7 @@ import Paper from '@material-ui/core/Paper';
 import TextField from '@material-ui/core/TextField';
 import Button  from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
+import Typography from '@material-ui/core/Typography';
 
 const axios = require('axios');
 
@@ -95,10 +96,16 @@ export default function MyForm() {
         <div className={classes.root}>
         
             <Grid container spacing={3}>
+
+
                 <Grid item xs={3}>
 
                 </Grid>
+
                 <Grid item xs={6}>
+                <Typography align='center' color='primary' gutterBottom variant="h3" component="h2">
+                Lyrics Finder
+              </Typography>
                     <br/>
                     <Paper className={classes.paper}>
                     
